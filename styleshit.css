@@ -1,0 +1,408 @@
+body{
+	margin: 0;
+	font-family:'Quicksand', sans-serif;
+}
+
+h1{
+	font-family: 'ZCOOL XiaoWei', serif;
+	letter-spacing: 1px;
+}
+
+a {
+	font-family: 'ZCOOL XiaoWei', serif;
+	letter-spacing: 1px;
+
+}
+
+.carte_principale {
+background-color: #FFFFFF;
+width: :100%;
+margin:0 auto;	
+padding: 0 300px;
+text-align: center;
+box-shadow:0px 0px 0px grey;
+color : #696969;
+position : relative;
+top: 80px ;
+font-size: 20px
+}
+
+.photo {
+	width: 100px;
+	height: auto;
+}
+
+.pictos{
+	padding-bottom: 400px;
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 100px;
+    position: relative;
+    top : 60px;
+    text-align: center;
+    color : #696969;
+    font-size: 17px;
+}
+
+ul{
+	height: auto;
+	display: flex;
+	justify-content: space-between;
+	font-weight: bolder;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 20px;
+    right: 20px;
+}
+
+.flex{
+	display: flex;
+}
+
+li{
+	width : auto ; 
+	height:auto;
+	margin: 10px;
+	padding: 0px;
+	list-style: none;
+}
+
+.hover:hover{ 
+	color: black;
+}
+
+li a{
+	text-decoration: none;
+	color : #638eb0;
+
+}
+
+.Image_accueil{
+	background-size: cover;
+	background-position: center;
+	background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("Images/Image_accueil.jpeg");
+	width: 100%;
+	height: 550px;
+}
+
+.description_accueil{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Text_accueil{
+	text-align: center;
+	color : #638eb0;
+	font-size: 70px;
+	position : relative;
+	bottom: 40px;
+}
+
+.Text_accueil2{
+	text-align: center;
+	color : #638eb0;
+	position: relative;
+	bottom: 100px;
+	font-size: 35px;
+}
+
+.bouton1{
+	background-color: rgba(255,255, 255, 0.3);
+    padding: 20px 30px;
+    color: #638eb0;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 20px auto;
+    font-size: 17px;
+    border: 3px solid #638eb0;
+}
+
+.bouton1:hover{
+	background-color: white;
+	color: #638eb0;
+}
+
+/*Vol - Heb - Pack*/
+.erreur{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Text_erreur{
+	text-align: center;
+	color : #638eb0;
+	font-size: 20px;
+	position : relative;
+	bottom: 20px;
+}
+
+.bouton4{
+	background-color:#638eb0 ;
+    padding: 10px 20px;
+    color: white ;
+    border-radius: 30px;
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 10px auto;
+    font-size: 17px;
+    border: 3px solid #638eb0;
+}
+
+.bouton4:hover{
+	background-color: white;
+	color: #638eb0;
+}
+
+
+/*inutile pour le moment */ 
+.navbar {
+background-color: #ffffff;
+width: :30%;
+margin: 20px auto;
+padding: 20px;
+text-align: right;
+box-shadow:0px 10px 10px grey;
+border-radius:5px;
+color : #638eb0;
+}
+
+.img-ronde {
+	border-radius: 50%;
+}
+
+/*Page contact*/
+
+.contactez-nous{
+	text-align: center;
+	position: relative;
+	top: 60px;
+	font-size: 25px;
+	color:#696969;
+}
+
+.banniere_contact1{
+	text-align:center;
+	width:130px;
+	border-radius: 50%;
+}
+
+.banniere_contact{
+	padding-bottom: 400px;
+	background-color:#EFEFEF;
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 80px;
+    position: relative;
+	top : 30px;
+}
+
+
+/*Ecran offres*/
+.image-thailande {
+	background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/thailande.jpeg");
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-position: right;
+}
+
+.image-thailande:hover {
+	background-image: url("images/thailande.jpeg");
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-position: right;
+}
+
+.cartel {
+	display: flex;
+	position: relative;
+	top: 80px
+}
+
+.offre-thailande{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background-color: #F4F4F4F4;
+	position: relative;
+	top: 150px;
+	border box-shadow: 20%
+}
+
+.text-thailande{
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	bottom: 50px;
+	color: #696969;
+
+}
+
+
+.bouton2 {
+	background-color: rgba(255,255, 255, 0.3);
+    padding: 15px 30px;
+    color: #638eb0;
+    border-radius: 30px;
+    width: 650px;
+ 	height: 300px;
+ 	text-decoration: none;
+ 	margin-top: 50px;	
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 20px auto;
+    font-size: 17px;
+    border: 3px solid #638eb0;
+}
+
+.bouton2:hover{
+	background-color: white;
+	color: #638eb0;
+}
+
+
+.image-vietnam {
+	background-image: linear-gradient(155deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url("images/vietnam.jpg");
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-position: right;
+	position: relative;
+	top: 150px;
+}
+
+.image-vietnam:hover {
+	background-image: url("images/vietnam.jpg");
+	width: 100%;
+	height: 600px;
+	background-size: cover;
+	background-position: right;
+	position: relative;
+	top: 150px;
+}
+
+.cartel2 {
+	display: flex;
+
+}
+
+.offre-vietnam{
+	width: 100%;
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	background-color: #F4F4F4F4;
+
+}
+
+.text-vietnam{
+	text-align: center;
+	font-size: 30px;
+	position: relative;
+	top: 30px;
+	color: #696969;
+
+}
+
+.bouton3 {
+	background-color: rgba(255,255, 255, 0.3);
+    padding: 15px 30px;
+    color: #638eb0;
+    border-radius: 30px;
+    width: 650px;
+ 	height: 300px;
+ 	text-decoration: none;
+ 	margin-top: 50px;	
+    font-weight: bolder;
+    text-decoration: none;
+    margin: 20px auto;
+    font-size: 17px;
+    border: 3px solid #638eb0;
+ }
+
+.bouton3:hover {
+	background-color: white;
+	color: #638eb0;
+}
+/*Fin page vol*/
+
+/*Footer*/
+
+.bas_page{
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    top : 220px;
+    color : #696969;
+    font-size: 17px;
+}
+
+
+.footer{
+	display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #638eb0;
+    color: #ffffff;
+    position : relative;
+    top: 300px;
+}
+
+.bas_page2{
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: 50px;
+    color : #696969;
+    font-size: 17px;
+}
+
+
+.footer2{
+	display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #638eb0;
+    color: #ffffff;
+    position : relative;
+    bottom: 0px;
+}
+
+/*Formulaire*/
+
+.typeform-widget{
+	position: relative 
+	top: 0px;
+	margin-left: 38%
+}
+
+/*Slide*/
+.swiper-container {
+    position: relative;
+    top: 200px;
+    max-width: 100%;
+    width : 100%;
+    height: 500px;
+}
